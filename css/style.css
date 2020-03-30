@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  outline: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.indent {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__logo a {
+  text-decoration: none;
+}
+
+.header__logo a div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 160px;
+  height: 60px;
+
+  background: rgb(51, 51, 51);
+}
+
+.header__logo a div span {
+  color: rgb(255, 255, 255);
+  letter-spacing: 6px;
+}
+
+.main__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  margin-top: -60px;
+
+  background: url(../img/main-bg.jpg) no-repeat 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.main__quote {
+  padding: 5px 15px;
+
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.main__quote p {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.description__section {
+  padding: 100px 250px;
+
+  color: rgb(51, 51, 51);
+}
+
+.description_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 30px;
+
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.description_top .line {
+  width: 100px;
+  height: 2px;
+
+  margin-top: 15px;
+  
+  background-color: rgb(51, 51, 51);
+}
+
+.description_bottom {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.quote_pink__section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  background-image: url(../img/image-1.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50%;
+  background-color: rgb(255, 233, 227);
+}
+
+.quote_pink__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.quote_pink__block {
+  width: 50%;
+}
+
+.quote_pink__text {
+  padding-right: 180px;
+  padding-left: 80px;
+}
+
+.quote_pink__text p {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+
+.quote_pink__author {
+  margin-top: 30px;
+  padding-left: 80px;
+}
+
+.quote_pink__author p {
+  font-size: 22px;
+  color: rgb(51, 51, 51);
+}
+
+.section__title {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.section__title p {
+  color: rgb(51, 51, 51);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section__title__line {
+  width: 60px;
+  height: 2px;
+
+  margin-top: 10px;
+
+  background-color: rgb(51, 51, 51);
+}
+
+.section__link {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.section__link a {
+  text-decoration: none;
+}
+
+.section__link a div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  height: 40px;
+
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 3px;
+
+  transition: 0.5s;
+}
+
+.section__link a div:hover {
+  background: rgb(51, 51, 51);
+}
+
+.section__link a div:hover span {
+  color: rgb(255, 255, 255);
+}
+
+.section__link a div span {
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.reasons__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.reasons__block {
+  width: 50%;
+  height: 200px;
+
+  outline: 2px solid rgb(243, 244, 246);
+  outline-offset: -1px;
+}
+
+.reasons__card {
+  margin: 30px;
+}
+
+.reasons__card__title {
+  margin-bottom: 15px;
+}
+
+.reasons__card__title p {
+  color: rgb(51, 51, 51);
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.reasons__card__text {
+  height: 80px;
+}
+
+.reasons__card__text p {
+  color: rgb(51, 51, 51);
+}
+
+.reasons__card__author p {
+  color: rgb(51, 51, 51);
+  font-style: italic;
+}
+
+.quote-of-the-day__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 400px;
+
+  background: url(../img/quote-bg.png) no-repeat fixed 100%;
+  background-size: cover;
+}
+
+.quote-of-the-day__wrapper {
+  text-align: center;
+}
+
+.quote-of-the-day__text {
+  padding: 5px 15px;
+  
+  background: rgba(51, 51, 51, 0.8);
+}
+
+.quote-of-the-day__text p {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.photos__section {
+  background: rgb(243, 244, 246);
+}
+
+.photos__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos__block {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 50%;
+}
+
+.photos__block.lg .photos__card {
+  width: 100%;
+  height: 500px;
+}
+
+.photos__block.sm .photos__card {
+  width: 50%;
+  height: 250px;
+}
+
+.photos__card {
+  position: relative;
+
+  outline: 2px solid rgb(255, 255, 255);
+  outline-offset: -1px;
+  overflow: hidden;
+}
+
+.photos__card .mask {
+  position: absolute;
+
+  display: flex;
+  align-items: flex-end;
+  
+  width: 100%;
+  height: 100%;
+
+  background: rgba(51, 51, 51, 0.65);
+  opacity: 0;
+
+  transition: 0.5s;
+}
+
+.photos__card .mask p {
+  padding-left: 30px;
+  padding-bottom: 30px;
+
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.photos__card .mask p svg {
+  width: 16px;
+
+  margin-left: 6px;
+}
+
+.photos__card .mask p svg path {
+  fill: rgb(255, 255, 255);
+}
+
+.photos__card img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.photos__card:hover .mask {
+  opacity: 1;
+}
+
+.footer__wrapper_top {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__block {
+  width: 25%;
+}
+
+.footer__block__title {
+  margin-bottom: 30px;
+}
+
+.footer__block__title p {
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.footer__block__info {
+  font-size: 14px;
+}
+
+.footer__block__info ul {
+  list-style-type: none;
+}
+
+.footer__block__info ul li {
+  margin-bottom: 10px;
+}
+
+.footer__block__info ul li span {
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
+
+.footer__block__info ul li a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.footer__block__info p {
+  color: rgb(51, 51, 51);
+}
+
+.footer__block__info form input {
+  width: 100%;
+  height: 40px;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+
+  background: rgb(243, 244, 246);
+  border: none;
+}
+
+.footer__block__info form input::placeholder {
+  color: rgb(51, 51, 51);
+  letter-spacing: 3px;
+}
+
+.footer__block__info form button {
+  height: 40px;
+  
+  padding-left: 30px;
+  padding-right: 30px;
+
+  letter-spacing: 3px;
+  background: none;
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 3px;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.footer__block__info form button:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(51, 51, 51);
+}
+
+.footer__wrapper_bottom {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  background: rgb(243, 244, 246);
+}
+
+.footer__wrapper_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__wrapper_bottom .block p {
+  color: rgb(51, 51, 51);
+}
+
+.footer__wrapper_bottom .block ul {
+  display: flex;
+
+  list-style-type: none;
+}
+
+.footer__wrapper_bottom .block ul li {
+  margin-left: 30px;
+}
+
+.footer__wrapper_bottom .block ul li svg {
+  width: 16px;
+  height: 16px;
+
+  cursor: pointer;
+}
+
+.footer__wrapper_bottom .block ul li svg path {
+  fill: rgb(51, 51, 51);
+}
+
+.footer__block__info form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
